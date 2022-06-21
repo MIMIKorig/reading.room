@@ -1,0 +1,64 @@
+.book_block{
+    background-color: rgb(220, 220, 220);
+    width: 1000px;
+    height: 500px;
+    font-family: Montserrat, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    display: flex;
+
+}
+.book_block_leftColumn{
+    display: inline-block;
+}
+.book_block_rightColumn{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.book_image img{
+    width: 205px;
+    height:  270px;
+    float: left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+.book_title{
+    font-size: 20px;
+    font-weight: bold;
+    
+    padding-bottom: 5px;
+}
+.book_subtitle{
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.unto_descrip{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+.book_description{
+    width: 700px;
+    height: 230px;
+}
+
+a.book_btn_read {
+    display: inline-block;
+    background: #556a86;
+    color: #fff;
+    padding: 14px 30px 14px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 100;
+}
+a.book_btn_read:hover{
+    background: #2196f3;
+}
+.book_read {
+    margin: 24px;
+    text-align: center;
+  }
