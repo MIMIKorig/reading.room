@@ -1,0 +1,52 @@
+.discussion_block{
+    background-color: rgb(254, 254, 254);
+    width: 1000px;
+    height: 500px;
+    font-family: Montserrat, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    margin: 0;
+}
+
+.discussion_title{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: flex;
+    border-bottom: 2px solid maroon; /* Параметры линии под текстом */
+    box-shadow: 0px 2px black;
+}
+.discussion_left_title, .discussion_author_avatar{
+    float: left;
+    width: 200px;
+    height: 140px;
+}
+.discussion_author_avatar img{
+    margin: 15px 0px 0px 15px;
+    width: 90px;
+    height: 90px;
+}
+
+.discussion_name{
+    padding-bottom: 10px;
+}
+.discussion_subtitle{
+    width: 500px;
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+.discussion_author{
+    width: 200px;
+    margin-right: 15px;
+   
+}
+.discussion_stats{
+    font-size: 14px;
+   
+}
+.dis_descrip{
+    width: 980px;
+    height: 230px;
+}
