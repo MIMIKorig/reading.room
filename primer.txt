@@ -1,0 +1,17 @@
+
+<?php if(isset($_SESSION['logged_user'])): ?>
+    <link rel="stylesheet" href="/styles/main.css">
+    <img src= "/uploads/avatars/<?php echo $user->avatar;?>" class='avatar'>  
+        <form action="#" method="post" enctype="multipart/form-data">
+            <input type="file" name="avatar">
+            <button type="submit" name="set_avatar">Обновить аватар</button>
+        </form>
+        Авторизован! <br>
+        Привет, <?php echo $_SESSION['logged_user']->login; ?>!
+        <hr>
+        <a href="logout.php">Выйти</a><br>
+        <a href="index.php">На главную</a>
+<?php else : ?>
+    <a href="/login.php">Авторизация</a> <br>
+    <a href="/signup.php">Регистрация</a>
+<?php endif; ?>
