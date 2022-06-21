@@ -214,7 +214,7 @@
             </div>           
             <div class="right__columns">
                 <div class="right_page__title">
-                    % Скидки
+                    Новинки
                 </div>
                 <div class="right_page__subtitle">
                     <form class="right_page__buttons">
@@ -226,11 +226,11 @@
                                         <div class="janr-book"><span>Фэнтези</span></div>
                                         <div class="name-book"><a href=""> Элирм </a></div>
                                         <div class="author-book"><a href=""> Владимир Посмыгаев </a></div>
-                                        <div class="price-book">
+                                        <!-- <div class="price-book">
                                             <span>Цена:</span>
                                             <span style="text-decoration: line-through;">129 p.</span>
                                             <span style="margin-left: 20px; color:brown;">99 p.</span>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -238,13 +238,13 @@
                                 <a href=""><img src="img/izgoy.jpg" alt="" width="35%" height="80%"></a>
                                 <div class="title-book">
                                     <div class="janr-book"><span>Фэнтези</span></div>
-                                    <div class="name-book"><a href=""> ИЗГОЙ </a></div>
-                                    <div class="author-book"><a href=""> MIMIK </a></div>
-                                    <div class="price-book">
+                                    <div class="name-book"><a href="">ИЗГОЙ</a></div>
+                                    <div class="author-book"><a href="">MIMIK</a></div>
+                                    <!-- <div class="price-book">
                                         <span>Цена:</span>
                                         <span style="text-decoration: line-through;">169 p.</span>
                                         <span style="margin-left: 20px; color:brown;">109 p.</span>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="frs-book-img" style="margin-top: 10px;">
@@ -253,11 +253,11 @@
                                     <div class="janr-book"><span>Фэнтези | Роман</span></div>
                                     <div class="name-book"><a href=""> Поступь стали </a></div>
                                     <div class="author-book"><a href=""> Радислав Тартаров </a></div>
-                                    <div class="price-book">
+                                    <!-- <div class="price-book">
                                         <span>Цена:</span>
                                         <span style="text-decoration: line-through;">199 p.</span>
                                         <span style="margin-left: 20px; color:brown;">139 p.</span>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="frs-book-img" style="margin-top: 10px;">
@@ -267,11 +267,11 @@
                                     <div class="name-book"><a href=""> Королевская кровь-1. <br>
                                         Сорванный венец </a></div>
                                     <div class="author-book"><a href=""> Ирина Котова </a></div>
-                                    <div class="price-book">
+                                    <!-- <div class="price-book">
                                         <span>Цена:</span>
                                         <span style="text-decoration: line-through;">129 p.</span>
                                         <span style="margin-left: 20px; color:brown;">99 p.</span>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

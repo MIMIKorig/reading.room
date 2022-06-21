@@ -3,8 +3,8 @@
 require "rb.php";
 
 R::setup( 'mysql:host=localhost;dbname=register',
-'root', '' );
-$site_url = "http://cwpass.kz/";
+'root', 'root' );
+$site_url = "http://reading.room/";
 session_start();
 
 

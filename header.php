@@ -36,7 +36,7 @@
                                     <a href="#" id="dropdown_a">Скидки</a>
                                     <a href="#" id="dropdown_a">Рекомендуемое</a>
                                     <a href="#" id="dropdown_a">Подборка</a>
-                                    <a href="/books/books.php" id="dropdown_a">Все книги</a>                                    
+                                    <a href="/books/books.php" id="dropdown_a">ИТ</a>                                    
                                 </div>
                                 <div class="dropdown_middle_column">
                                     <h5>ЖАНРЫ</h5>
@@ -44,24 +44,24 @@
                                     <a href="/books/genres/historical_prose.php" id="dropdown_a">Историческая проза</a>
                                     <a href="/books/genres/romance_novels.php" id="dropdown_a">Любовные романы</a>
                                     <a href="/books/genres/teen_prose.php" id="dropdown_a">Подростковая проза</a>
-                                    <a href="#" id="dropdown_a">Поэзия</a>
-                                    <a href="#" id="dropdown_a">Ужасы</a>
-                                    <a href="#" id="dropdown_a">Попаданцы</a>
+                                    <a href="/books/genres/poetry.php" id="dropdown_a">Поэзия</a>
+                                    <a href="/books/genres/horror.php" id="dropdown_a">Ужасы</a>
+                                    <a href="/books/genres/portal_traveler.php" id="dropdown_a">Попаданцы</a>
                                 </div>
                                 <div class="dropdown_right_column">
                                     <h5>ВСЕ ЖАНРЫ</h5>
-                                    <a href="#" id="dropdown_a">Детектив</a>
-                                    <a href="#" id="dropdown_a">Мистика</a>
-                                    <a href="#" id="dropdown_a">Приключения</a>
-                                    <a href="#" id="dropdown_a">Триллер</a>
-                                    <a href="#" id="dropdown_a">Фантастика</a>
-                                    <a href="#" id="dropdown_a">Фэнтези</a>
-                                    <a href="#" id="dropdown_a">Юмор</a>
+                                    <a href="/books/all genres/detective.php" id="dropdown_a">Детектив</a>
+                                    <a href="/books/all genres/mystic.php" id="dropdown_a">Мистика</a>
+                                    <a href="/books/all genres/adventure.php" id="dropdown_a">Приключения</a>
+                                    <a href="/books/all genres/thriller.php" id="dropdown_a">Триллер</a>
+                                    <a href="/books/all genres/fantasy.php" id="dropdown_a">Фантастика</a>
+                                    <a href="/books/all genres/phantasie.php" id="dropdown_a">Фэнтези</a>
+                                    <a href="/books/all genres/humor.php" id="dropdown_a">Юмор</a>
                                 </div>
                             </div>
                         </div>
                 </div><div class="dropdown">
-                        <form action="../discussions/discussions.php">
+                        <form action="../../discussions/discussions.php">
                             <button class="dropbtn">Обсуждения</button>
                         </form>
                 </div><div class="dropdown">
