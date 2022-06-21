@@ -1,0 +1,47 @@
+.profile_block{
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    box-shadow: 0px 2px 3px rgba(182, 182, 182, 3.5);/*ТЕСТОВЫЙ ТЕНЬ*/
+
+}
+.profile_avatar{
+    width: 750px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+.profile_avatar_block{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border: 2px solid black;
+}
+
+.profile_annotation{
+    width: 550px;
+    height: 150px;
+    font-family: Montserrat, sans-serif;
+
+}
+.profile_annotation p{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+.profile_info p{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.profile_avatar_update{
+    height: 76px;
+    
+}
+.profile_avatar_update form{
+    padding: 20px 0px 0px 0px;
+
+}

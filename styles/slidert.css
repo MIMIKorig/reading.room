@@ -1,0 +1,124 @@
+.sim-slider-list img {
+    /* адаптивная верстка */
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+    /*margin-left: 5%;
+    margin-top: 7.5%;*/
+  }
+
+.sim-slider-text{
+  margin-left: 230px;
+  font-size: 20px;
+  text-align: justify;
+}
+  
+  .sim-slider {
+    min-width: 100%;
+    height: 400px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 30px 50px;
+    border: 1px solid #ccd;
+    background-color: #E0E1DD;
+    float: left;
+  }
+  
+  /* General styles */
+  .sim-slider {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sim-slider-element {
+    width: 100%;
+    margin-top: 40px;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+.slider-button{
+  float: right;
+  margin-top: 30px;
+  margin-right: 90px;
+  width: 80px;
+  height: 40px;
+}
+  .slider-btn{
+    margin-top: 125px;
+    width: 80px;
+    height: 40px;
+
+    background-color: tomato;
+    z-index: 30;
+  }
+
+  /* Navigation item styles */
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 0;
+    margin-top: 20px;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    text-align: center;
+  }
+  
+  span.sim-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+

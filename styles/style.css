@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s ease-in-out;
+}
+body{
+    background-color: #E0E1DD;
+
+}
+
+.topnav {
+    font-family:  Montserrat, sans-serif;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 3px rgba(182, 182, 182, 3.5);/*ТЕСТОВЫЙ ТЕНЬ*/
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    background-color: #556a86;
+    color: #E0E1DD;
+    border-bottom: 3px solid #0D1B2A;
+}
+.topnav a.active {
+    border-bottom: 3px solid red;
+}
+.topnav-logo{
+    float: left;
+    margin-left: 5.5%;
+}
+.topnav-panel{
+    margin-left: 25%;
+}
+.topnav-account_panel {
+    width: 355px;
+    float: right;
+    margin-right: 4.5%;
+}
+.topnav-account_panel img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 15%;
+    border: 1.5px solid #ccc; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.topnav-account_panel a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*  CENTER  */
+
+.wrapper {
+    
+}
+
+.content {
+    display: flex;
+    
+}
+
+
+.main_page, .main_page__second-block,
+ .right__columns, .left__columns {
+	display: flex;
+	flex: auto;
+	align-items:  center;
+	flex-direction: column;
+    margin-top: 5%;
+}
+
+.main_page__title, .main_page__second-title, 
+.left_page__title, .right_page__title{
+	align-self: center;
+	padding: 50px 0 20px 0;
+	font-size: 24px;
+}
+.main_page__subtitle {
+	display: flex;
+	border: 1px solid red;
+	min-height: 400px;
+	min-width: 800px;
+	justify-content: space-between;
+}
+.main_page__second-subtitle{
+	display: grid;
+	border: 1px solid red;
+/*	min-height: 800px;
+	min-width: 800px;   */
+	justify-content: space-between;
+}
+.left_page__subtitle{
+    float: left;
+    display: flex;
+	border: 1px solid red;
+/*	min-height: 500px;
+	min-width: 350px;   */
+	justify-content: space-between;
+}
+.right_page__subtitle{
+    float: right;
+    display: flex;
+	border: 1px solid red;
+	min-height: 500px;
+	min-width: 350px;   
+	justify-content: space-between;
+}
+
+/*рек. книги 4*2*/
+.main_page__recommend-columns{
+	border: 1px solid black;
+	min-width: 20%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+    width: 200px;
+    height: 260px;
+
+}
+
+.main_page__recommend-columns div{
+	align-items: center;
+	justify-content: center;
+
+}
+.frs-items{
+    width: 800px; /*ширина*/
+    height: 300px; /*высота*/
+    margin-top: 60px;
+    padding-bottom: 10px;
+    /*margin-left: 20px;*/
+    
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+   /* position: fixed;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    
+   /* background: rgb(139, 139, 139);/*РАЗМЕТКА*/
+    
+}
+
+.frs-items img:hover{
+    transition: 0.7s;
+    overflow: hidden;
+    display: inline-block;
+    transform: scale(1.04);
+}
+
+
+#frs-list-left-items{
+    width: 400px;
+    height: 280px;
+    float: left;
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+#frs-list-right-items{
+    width: 400px;
+    height: 280px;
+    float: right;
+    text-align: center;
+    align-items: center;
+}
+
+
+#frs-list-items{
+    width: 200px;
+    height: 280px;
+    float: left;
+   
+}
+
+
+
+
+/*chat*/
+.left_page__buttons, .right_page__buttons{
+    display: flex;
+	flex: auto;
+	align-items:  center;
+	flex-direction: column;
+
+}
+.left_page__button{
+    border-radius: 5px;
+    padding: 10px;
+
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #E0E1DD;
+    border-bottom: 2px solid maroon; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; 
+   
+}
+.left_page__button:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.left_page__button img {
+    float: left;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.left_page__button p{
+    font-size: 22px;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+.left_page__button a{
+    text-decoration: none;
+    color: #0D1B2A;
+}
+.time-right {
+    float: right;
+    color: #aaa;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.left_page__button:hover{
+    background-color: #D0D0D7;
+}
+.left_page__comuinity{
+    width: 350px;
+    height: 100px;
+    padding-top: 40px;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+.right_page__button{
+    width: 350px;
+    height: 200px;
+}
+.title-book{
+    float: right;
+    margin-right: 15%;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 150px;
+}
+.frs-book-img{
+    border-bottom: 2px solid maroon; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; 
+}
+.title-book a{
+    text-decoration: none;
+    color: #0D1B2A;
+}
+.janr-book{
+    color: #878b92;
+}
+.name-book{
+    margin-top: 10px;
+}
+.author-book{
+    margin-top: 10px;
+}
+.price-book{
+    margin-top: 60px;
+}
+
+
+/*slider*/
+
+
+
+
+
+
+
+
+/*    FOOTER    */
+
+footer{
+    background: #eef3fb;
+    overflow: hidden;
+    margin-top: 200px;
+    
+    /*padding-top: 10px;*/
+   
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    
+}
+
+.footer-page{
+
+    width: 890px;
+    height: 800px;
+    margin-left: 300px;
+    
+}
+.footer-page h4{
+    padding-bottom: 10px;
+}
+.footer-page .hot-buttons{
+    margin-top: 30px;
+    display: flex;
+}
+.footer-page .hot-buttons a{
+    font-size: 14px;
+
+    font-weight:normal;
+    display: block;
+    text-decoration: none;
+    color: #0D1B2A;
+}
+.footer-page .hot-buttons a:hover{
+    text-decoration: underline;
+}
+#content-footer{
+    width: 222.5px;
+    margin-left: 40px;
+}
+
+.about{
+    color: #66757f;
+}
+.telega-logo, .insta-logo, .vk-logo{
+    text-align: center;
+    align-items: center;
+    float: left;
+}
+.insta-logo, .vk-logo{
+    margin-left: 10px;
+}
+.telega-logo img, .insta-logo img, .vk-logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.footer_subs{
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.label-adult-only{
+    background-color: rgb(238, 85, 85);
+    border-radius: 2px;
+}
+
+
+@media (max-width:1509px) {
+    .body{
+        max-width: 1400px;
+    }
+    .content{
+        max-width: 1400px;
+    }
+    .left__columns{
+        max-width: 335px;
+    }
+    .main_page{
+        max-width: 755px;
+    }
+    .right__columns{
+        max-width: 335px;
+    }
+    .sim_slider{
+        max-height: 300px;
+    }
+}
+@media (max-width:1440px) {
+    .body{
+        max-width: 1200px;
+    }
+    .content{
+        max-width: 1200px;
+    }
+    .left__columns{
+        max-width: 315px;
+    }
+    .main_page{
+        max-width: 725px;
+    }
+    .right__columns{
+        max-width: 315px;
+    }
+    .sim_slider{
+        max-height: 250px;
+    }
+}
